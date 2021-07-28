@@ -44,7 +44,19 @@
 
 인스턴스의 작성에 관한 디자인 패턴에 대해서 배웁니다
 
+#### [Charter 05. Singleton](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/singleton)
 
+#### [Charter 06. Prototype](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/prototype)
+
+#### [Charter 07. Builder](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/builder)
+
+#### [Charter 08. Abstract Factory](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/abstract_factory)
 
 ---
+
+### :game_die: Part 4 분리해서 생각하기
+
+복잡하게 뒤섞이기 쉬운 프로그램을 분리해서 생각하는 디자인 패턴에 대해서 배웁니다
+
+#### [Charter 09. Bridge](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/bridge)
 

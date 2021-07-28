@@ -1,9 +1,8 @@
-package prototype.anonymous;
+package prototype.practice;
 
 import prototype.framework.Product;
-import prototype.practice.ImpactProduct;
 
-public class UnderlinePen extends ImpactProduct {
+public class UnderlinePen extends ImpactProduct{
 
     private char ulchar;
     public UnderlinePen(char ulchar) {
@@ -21,5 +20,4 @@ public class UnderlinePen extends ImpactProduct {
         }
         System.out.print(" ");
     }
-
 }

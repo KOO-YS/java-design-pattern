@@ -1,4 +1,4 @@
-package prototype.anonymous;
+package prototype.practice;
 
 import prototype.framework.Product;
 
