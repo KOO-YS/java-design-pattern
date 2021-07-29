@@ -1,0 +1,6 @@
+text file reading
+
+test fro
+
+m
+try multi line

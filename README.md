@@ -60,3 +60,14 @@
 
 #### [Charter 09. Bridge](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/bridge)
 
+#### [Charter 10. Strategy](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/strategy)
+
+---
+
+### :game_die: Part 5 동일시하기
+
+언뜻 보기에는 서로 다른 것을 통일적으로 조작할 수 있도록 하거나, 취급 방법을 바꾸지 않고 기능을 추가하는 패턴과 **위임**에 대해서 배웁니다
+
+
+#### [Charter 11. Composite](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/composite)
+
