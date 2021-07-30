@@ -1,4 +1,4 @@
-package composite;
+package visitor;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,7 +6,7 @@ import java.util.Iterator;
 /**
  * 디렉토리를 나타내는 클래스
  */
-public class Directory extends Entry{
+public class Directory extends Entry {
     private String name;
     private ArrayList<Entry> directory = new ArrayList<>();     // 엔트리 집합
 //    private int size;     X 없다. 디렉토리의 크기는 동적으로 계산해서 구하기 때문
@@ -46,5 +46,14 @@ public class Directory extends Entry{
             Entry entry = (Entry) it.next();
             entry.printList(prefix+"/"+name);
         }
+    }
+
+    public Iterator iterator() {
+        return directory.iterator();
+    }
+
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
     }
 }

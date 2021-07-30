@@ -13,7 +13,26 @@
 
 
 ---
+<br>
 
+
+## Package Structure 📦
+
+- `디자인패턴명` 패키지
+    - 디자인 패턴에 맞는 README 설명
+    - 디자인 패턴에 맞는 예제 프로그램 코드
+    - `execute` 패키지
+        - 예제 프로그램을 실행할 수 있는 Main 클래스 (main 함수 포함)
+    - `practice` 패키지
+        - 디자인 패턴 연습문제 README
+        - (+) 필요할 시, 연습문제 소스 추가
+
+
+
+
+<br>
+
+---
 <br>
 
 
@@ -71,3 +90,28 @@
 
 #### [Charter 11. Composite](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/composite)
 
+#### [Charter 12. Decorator](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/decorator)
+
+---
+
+### :game_die: Part 6 구조로 돌아다니기
+
+데이터 구조를 돌아다니는 패턴에 대해서 배웁니다
+
+#### [Charter 13. Visitor](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/visitor)
+
+#### [Charter 14. Chain of Responsibility](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/chain_of_responsibility)
+
+
+
+
+
+<br>
+
+---
+
+<br>
+
+# ™💭
+
+**궁금한 or 더 알아보고 싶은 내용이 있을 때 `Issue`로 관리(예정)**

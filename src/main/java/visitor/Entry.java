@@ -1,9 +1,9 @@
-package composite;
+package visitor;
 
 /**
  * 디렉토리와 파일 두 가지 클래스를 하나로 모은 형태의 상위 클래스
  */
-public abstract class Entry {
+public abstract class Entry implements Element{     // Entry를 Visitor에 적용시키기 위해
     public Entry parent;
     public abstract String getName();
     public abstract int getSize();
