@@ -7,18 +7,19 @@
 
 
 ## 13-1 Solution
-###  
+### [FileFindvisitor 코드 확인](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/visitor/practice/FileFindvisitor.java)
 <br>
 
 
-## 13-2 예제 프로그램의 Directory 클래스의 getSize 클래스에서는 '사이즈를 얻는' 처리를 실행합니다. '사이즈를 얻는 처리'를 실행하는 SizeVisitor 클래스를 도입해서 Directory 클래스의 getSize 메소드를 다시 기술하십시오 
-### 
+## 13-2 
+### 예제 프로그램의 Directory 클래스의 getSize 클래스에서는 '사이즈를 얻는' 처리를 실행합니다. '사이즈를 얻는 처리'를 실행하는 SizeVisitor 클래스를 도입해서 Directory 클래스의 getSize 메소드를 다시 기술하십시오
+
 
 <br>
 
 
 ## 13-2 Solution
-###  
+### [SizeVisitor 코드 확인](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/visitor/practice/SizeVisitor.java)
 <br>
 
 
@@ -41,5 +42,5 @@
 
 
 ## 13-4 Solution
-###  
+### [Why is the String class declared final?](https://github.com/KOO-YS/java-design-pattern/issues/2)
 <br>

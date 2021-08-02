@@ -1,5 +1,7 @@
 package visitor;
 
+import visitor.practice.SizeVisitor;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -23,13 +25,18 @@ public class Directory extends Entry {
 
     @Override
     public int getSize() {
-        int size = 0;
-        Iterator it = directory.iterator();
-        while(it.hasNext()) {
-            Entry entry = (Entry) it.next();
-            size += entry.getSize();        // 재귀
-        }
-        return size;
+//        int size = 0;
+//        Iterator it = directory.iterator();
+//        while(it.hasNext()) {
+//            Entry entry = (Entry) it.next();
+//            size += entry.getSize();        // 재귀
+//        }
+//        return size;
+
+        SizeVisitor sv = new SizeVisitor();
+        this.accept(sv);
+
+        return sv.getSize();
     }
 
     @Override
