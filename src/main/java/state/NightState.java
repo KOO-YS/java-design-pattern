@@ -11,8 +11,13 @@ public class NightState implements State{
     }
 
     @Override
-    public void doCheck(Context context, int hour) {
-        if (hour <= 9 && 17 > hour) {
+    public void doClock(Context context, int hour) {
+        // lunch
+        if (LUNCH_START <= hour && hour < LUNCH_END) {
+            context.changeState(LunchState.getInstance());
+        }
+        // day
+        else if (hour >= MORNING_START && NIGHT_START > hour) {
             context.changeState(DayState.getInstance());
         }
     }
@@ -25,11 +30,12 @@ public class NightState implements State{
     @Override
     public void doAlarm(Context context) {
         context.callSecurityCenter("비상벨(야간)");
+        context.changeState(EmergencyState.getInstance());
     }
 
     @Override
     public void doPhone(Context context) {
-        context.callLog("야간통화 녹음");
+        context.recordLog("야간통화 녹음");
     }
 
     @Override

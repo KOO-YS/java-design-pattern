@@ -11,8 +11,13 @@ public class DayState implements State{
     }
 
     @Override
-    public void doCheck(Context context, int hour) {        // 시간 설정
-        if (hour < 9 || 17 <= hour) {
+    public void doClock(Context context, int hour) {        // 시간 설정
+        // lunch
+        if (LUNCH_START <= hour && hour < LUNCH_END) {
+            context.changeState(LunchState.getInstance());
+        }
+        // night
+        else if (hour < MORNING_START || NIGHT_START <= hour) {
             context.changeState(NightState.getInstance());
         }
     }
@@ -25,6 +30,7 @@ public class DayState implements State{
     @Override
     public void doAlarm(Context context) {
         context.callSecurityCenter("비상벨(주간)");
+        context.changeState(EmergencyState.getInstance());
     }
 
     @Override
