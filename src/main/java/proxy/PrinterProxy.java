@@ -35,7 +35,7 @@ public class PrinterProxy implements Printable{
         real.print(string);
     }
 
-    private void realize() { // 본인을 생성
+    private synchronized void realize() { // 본인을 생성
         if (real == null) {
             real = new Printer(name);
         }
