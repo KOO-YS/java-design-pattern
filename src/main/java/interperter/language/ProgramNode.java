@@ -1,4 +1,4 @@
-package interperter;
+package interperter.language;
 
 import java.text.ParseException;
 
@@ -10,6 +10,10 @@ public class ProgramNode extends Node{
         context.skipToken("program");
         commandListNode = new CommandListNode();
         commandListNode.parse(context);
+    }
+
+    public void execute() throws ExecuteException {
+        commandListNode.execute();
     }
 
     @Override

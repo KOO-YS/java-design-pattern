@@ -1,4 +1,4 @@
-package interperter;
+package interperter.language;
 
 import java.text.ParseException;
 
@@ -19,5 +19,9 @@ public class CommandNode extends Node {
     @Override
     public String toString() {
         return node.toString();
+    }
+
+    public void execute() throws ExecuteException{
+        node.execute();
     }
 }

@@ -1,4 +1,8 @@
-package interperter;
+package interperter.language;
+
+import interperter.language.CommandListNode;
+import interperter.language.Context;
+import interperter.language.Node;
 
 import java.text.ParseException;
 
@@ -15,6 +19,11 @@ public class RepeatCommandNode extends Node {
         commandListNode.parse(context);
     }
 
+    public void execute() throws ExecuteException{
+        for (int i=0; i<number; i++) {
+            commandListNode.execute();
+        }
+    }
     @Override
     public String toString() {
         return "[repeat "+number+" "+commandListNode+"]";

@@ -9,7 +9,7 @@ import java.io.IOException;
  * '큰 문자'를 나타내는 클래스
  */
 public class BigChar {
-    private static final String FILEPATH = "flyweight/";
+    private static final String FILEPATH = "etc/flyweight/";
     // 문자의 이름
     private char charname;
     // 큰 문자를 표현하는 문자열
