@@ -1,4 +1,4 @@
-package interperter.language;
+package interpreter.language;
 
 /**
  * 기본 커맨드를 생성하는 인터페이스

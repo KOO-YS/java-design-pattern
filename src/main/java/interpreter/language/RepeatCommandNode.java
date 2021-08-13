@@ -1,8 +1,4 @@
-package interperter.language;
-
-import interperter.language.CommandListNode;
-import interperter.language.Context;
-import interperter.language.Node;
+package interpreter.language;
 
 import java.text.ParseException;
 

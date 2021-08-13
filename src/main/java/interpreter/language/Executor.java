@@ -1,4 +1,4 @@
-package interperter.language;
+package interpreter.language;
 
 /**
  * 실행을 표현하는 인터페이스

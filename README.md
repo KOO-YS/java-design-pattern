@@ -102,7 +102,36 @@
 
 #### [Charter 14. Chain of Responsibility](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/chain_of_responsibility)
 
+---
+### :game_die: Part 7 단순화하기
+클래스들이 복잡한 관계에 있을 떄, 클래스를 단순하게 하는 패턴에 대해서 배웁니다
 
+#### [Charter 15. Facade](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/facade)
+#### [Charter 16. Mediator](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/mediator)
+
+---
+### :game_die: Part 8 상태를 관리하기
+상태에 관련한 패턴에 대해서 배웁니다
+
+#### [Charter 17. Observer](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/observer)
+#### [Charter 18. Memento](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/memento)
+#### [Charter 19. State](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/state)
+
+---
+
+### :game_die: Part 9 낭비 없애기
+낭비를 없애서 효율적인 처리를 실행하는 패턴에 대해서 배웁니다
+
+#### [Charter 20. Flyweight](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/flyweight)
+#### [Charter 21. Proxy](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/proxy)
+
+---
+
+### :game_die: Part 10 클래스로 표현하기
+명령, 문법규칙과 같은 의외의 것을 클래스로 표현하는 패턴에 대해서 배웁니다
+
+#### [Charter 22. Command](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/command)
+#### [Charter 23. Interpreter](https://github.com/KOO-YS/java-design-pattern/tree/master/src/main/java/interprter)
 
 
 
@@ -112,6 +141,11 @@
 
 <br>
 
+
+
 # ™💭
 
-**궁금한 or 더 알아보고 싶은 내용이 있을 때 `Issue`로 관리(예정)**
+#### 궁금한 or 더 알아보고 싶은 내용이 있을 때 `Issue`로 관리(예정)
+
+####  [issue 정리 보러가기](https://github.com/KOO-YS/java-design-pattern/issues?q=is%3Aissue+is%3Aclosed) 🔔
+

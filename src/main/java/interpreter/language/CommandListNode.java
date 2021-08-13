@@ -1,4 +1,4 @@
-package interperter.language;
+package interpreter.language;
 
 import java.text.ParseException;
 import java.util.ArrayList;

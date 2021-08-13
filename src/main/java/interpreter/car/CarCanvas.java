@@ -1,8 +1,8 @@
-package interperter.car;
+package interpreter.car;
 
-import interperter.language.ExecuteException;
-import interperter.language.Executor;
-import interperter.language.ExecutorFactory;
+import interpreter.language.ExecuteException;
+import interpreter.language.Executor;
+import interpreter.language.ExecutorFactory;
 
 import java.awt.*;
 

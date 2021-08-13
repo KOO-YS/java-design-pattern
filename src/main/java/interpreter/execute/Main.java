@@ -1,8 +1,8 @@
-package interperter.execute;
+package interpreter.execute;
 
-import interperter.language.Context;
-import interperter.language.Node;
-import interperter.language.ProgramNode;
+import interpreter.language.Context;
+import interpreter.language.Node;
+import interpreter.language.ProgramNode;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

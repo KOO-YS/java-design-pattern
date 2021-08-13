@@ -31,7 +31,7 @@
     - 검색하기 위한 필요한 정보를 가지고 있어야 함
 - Aggregate(집합체)의 역할
     - Iterator 역할을 만들어내는 인터페이스(API) 결정
-    - 내가 가지고 있는 요소를 순서대로 검색해주는 역할(->iterator()을 생성
+    - 내가 가지고 있는 요소를 순서대로 검색해주는 역할(->iterator()을 생성)
 - ConcreteAggregate(구체적인 집합체)의 역할
     - Aggregate 역할이 결정한 인터페이스(API)를 실제로 구현하는 일
     - ConcreteIterator 생성

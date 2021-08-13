@@ -1,9 +1,8 @@
-package interperter.practice;
+package interpreter.practice;
 
-import interperter.car.CarCanvas;
-import interperter.language.InterpreterFacade;
+import interpreter.car.CarCanvas;
+import interpreter.language.InterpreterFacade;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
